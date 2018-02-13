@@ -1,17 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang=en>
 
-<div class="view">
-  <div class="plane main">
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-  </div>
-</div>
-
-$side: 120px
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 shrink-to-fit=no">
+    <style>
+    $side: 120px
 $l: 90px
 $num: 10
 $dur: 10s
@@ -90,3 +85,20 @@ html, body
     transform: rotateX(0) rotateY(0) rotateZ(0)
   100%
     transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+    </style>
+    </head>
+    <body>
+    
+<div class="view">
+  <div class="plane main">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
+</body>
+</html>
+  
