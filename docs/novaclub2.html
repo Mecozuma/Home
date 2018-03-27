@@ -2,6 +2,23 @@
 <html>
 <head>
 <style>
+ .background-wrap{
+      position:fixed;
+      z-index:-1000;
+      width:100%;
+      height:100%;
+      overflow:hidden;
+      top:0;
+      left:0;
+      
+    }
+    video-bg-elem{
+      position:abosolute;
+      top:0;
+      left:0;
+      min-height:100%;
+      min-width:100%;
+    }
 * {
     box-sizing: border-box;
 }
@@ -120,15 +137,15 @@ body {
 </div>
 
 <div class="topnav">
-  <a href="#">Hookah</a>
-  <a href="#">Drinks</a>
-  <a href="#">Dancers</a>
+  <a href="#Hookah">Hookah</a>
+  <a href="#Drinks">Drinks</a>
+  <a href="#Dancers">Dancers</a>
   <a href="#" style="float:right">Events</a>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
+    <div id="Hookah" class="card">
       <h2>Hookah</h2>
       <h5>List of Premium Hookah Flavors</h5>
       <img src="http://www.thehookahhookup.net/images/slider/led_hookahs_sl_jpg.jpg" height= 300 width=600>
@@ -142,7 +159,7 @@ body {
 </dl>
    
     </div>
-    <div class="card">
+    <div id="Drinks" class="card">
       <h2>Drinks</h2>
       <h5>Mixtures that will make you say FUCK SLEEPING TONIGHT!</h5>
       <img src="http://prod-upp-image-read.ft.com/bbafa092-6f63-11e7-93ff-99f383b09ff9" height= 300 width=600>
@@ -150,13 +167,16 @@ body {
     </div>
   </div>
   <div class="rightcolumn">
-    <div class="card">
+    <div id=Dancers class="card">
       <h2>Dancers</h2>
 <img src="http://www.bestliveentertainment.com/wp-content/uploads/2011/02/Las-Vegas-Belly-Dancers-1-pic-1.jpg" height= 500 width=600>
       <p>The lovely dancers who will entertain all the guest on a nightly basis. P.S.A.. At least half these bitches are crazy so beware... </p>
     </div>
-    <div class="card">
+    <div id=Events class="card">
       <h3>Events</h3>
+      <p>
+      Random Shit YO
+      </p>
       <!-- <div class="fakeimg"><p>Image</p></div>
       <div class="fakeimg"><p>Image</p></div>
       <div class="fakeimg"><p>Image</p></div>
